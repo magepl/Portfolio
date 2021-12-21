@@ -1,0 +1,102 @@
+/* @font-face {
+  font-family: "Sainte";
+  src: url(/Fonts/Sainte\ Colombe\ Light\ Italic.otf);
+}
+
+* {
+  font-family: "Sainte", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #f6f7fc;
+}
+.wrapper {
+  width: 40%;
+  min-width: 590px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: flex;
+}
+.row2 {
+  width: 100%;
+  padding: 30px 30px 50px;
+  background-color: rgb(11, 30, 50);
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  color: white;
+}
+.container2 * {
+  color: white;
+  font-weight: 500;
+}
+h2 {
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar {
+  position: relative;
+
+  border: 2px solid #f6f7fc;
+
+  border-radius: 20px;
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #f6f7fc;
+}
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+  100% {
+    width: 90%;
+  }
+}
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill {
+  100% {
+    width: 75%;
+  }
+}
+#js-bar {
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 72%;
+  }
+}
+#react-bar {
+  animation: react-fill 2s forwards;
+}
+@keyframes react-fill {
+  100% {
+    width: 58%;
+  }
+} */
